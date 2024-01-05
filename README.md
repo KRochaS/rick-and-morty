@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src="https://github.com/KRochaS/rick-and-morty/blob/master/.github/title.svg" width="290" >
+  <br/>
+  <br/>
+  <img src="https://github.com/KRochaS/rick-and-morty/blob/master/.github/subtitle.svg" width="150" >
+  <br/>
+  <br/>  
+</p>
 
-## Getting Started
+<p align="center">	
+   <img src="https://img.shields.io/badge/-ReactJS-363447?style=flat&logoColor=white" />
 
-First, run the development server:
+  <img src="https://img.shields.io/badge/-NextJS-363447?style=flat&logoColor=white" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  <img src="https://img.shields.io/badge/-Typescript-363447?style=flat&logoColor=white" />
+   
+  <img src="https://img.shields.io/badge/-TailwindCSS-363447?style=flat&logoColor=white" />
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :bar_chart: Projeto
+Desenvolvido para um teste técnico onde o objetivo é utilizar a API GraphQL do Rick and Morty para exibir informações
+sobre personagens da série.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## :books: Tecnologias e libs utilizadas  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [React](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [NextJS](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [Testing Library](https://testing-library.com/)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## :woman_technologist: API GraphQL
+https://studio.apollographql.com/public/rick-and-morty-a3b90u/variant/current/home
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+##  Implementações
+  
+  - [x] Lista de todos os personagens na tela inicial 
+    - [x] Consumo da API GraphQL para obter a todos os personagens
+  - [x] Página de detalhes de cada personagem
+      - [x] Consumo da API GraphQL para obter a informação única do personagem
+       
+#### Recursos 
+ - [x] Async React com NextJS
+ - [x] Roteamento com NextJS
+ - [x] ContextAPI
+ - [x] Componentização
+ - [x] Propriedade e Estado 
+ - [x] Testes Unitários
+       
+## :iphone: Mobile
+Desenvolvido utilizando TailwindCSS aplicando o conceito de Mobile First
+<br />
+ <img src="https://github.com/KRochaS/rick-and-morty/blob/master/.github/mobile.gif" width="350" >
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## :computer: WEB
+<h1>
+    <img src="https://github.com/KRochaS/rick-and-morty/blob/master/.github/web.gif" height="400"/>
+</h1>
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
