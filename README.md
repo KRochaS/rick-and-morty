@@ -48,6 +48,13 @@ https://studio.apollographql.com/public/rick-and-morty-a3b90u/variant/current/ho
  - [x] Componentização
  - [x] Propriedade e Estado 
  - [x] Testes Unitários
+
+## :link: Link do projeto
+
+https://rick-and-morty-krochas.vercel.app/
+
+ 
+
        
 ## :iphone: Mobile
 Desenvolvido utilizando TailwindCSS aplicando o conceito de Mobile First
