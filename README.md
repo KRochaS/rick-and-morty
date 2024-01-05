@@ -53,8 +53,6 @@ https://studio.apollographql.com/public/rick-and-morty-a3b90u/variant/current/ho
 
 https://rick-and-morty-krochas.vercel.app/
 
- 
-
        
 ## :iphone: Mobile
 Desenvolvido utilizando TailwindCSS aplicando o conceito de Mobile First
@@ -65,4 +63,31 @@ Desenvolvido utilizando TailwindCSS aplicando o conceito de Mobile First
 <h1>
     <img src="https://github.com/KRochaS/rick-and-morty/blob/master/.github/web.gif" height="400"/>
 </h1>
+
+
+## Como rodar o projeto: 
+```bash
+#  Clone o repositório.
+$ git clone https://github.com/KRochaS/rick-and-morty.git
+
+# Navigue até a pasta do projeto no termical/cmd.
+$ cd rick-and-morty/
+
+# Instale as dependências.
+$ npm i ou yarn install
+
+# rode o projeto
+$ npm run dev
+
+# http://localhost:3000
+
+# Para rodar os testes 
+$ npm test
+
+# Para ver a cobertura de testes
+$ npm test --coverage
+
+# Acessar na pasta
+$ coverage/lcov-report/index.html
+```
 
